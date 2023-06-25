@@ -64,6 +64,7 @@ body{
     display: flex;
     align-items: center;
     padding: 0 10%;
+    
 }
 .home-content{
     max-width: 600px;
@@ -270,6 +271,7 @@ body{
     flex-direction: column;
     gap: 2rem;
     padding-bottom: 6rem;
+    padding: 0 10%;
 }
 .heading{
     font-size: 5rem;
@@ -329,12 +331,15 @@ span{
 
 
 .education{
+    margin-top: 6%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     min-height: auto;
     padding-bottom: 5rem;
+    padding: 0 5%;
+    
 }
 
 .education .education-row{
