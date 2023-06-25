@@ -263,7 +263,7 @@ body{
 }
 
 .about{
-    margin-top: 10%;
+    margin-top: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -325,4 +325,95 @@ span{
 }
 .btn-box.btns a::before{
     background: #c43edf;
+}
+
+
+.education{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: auto;
+    padding-bottom: 5rem;
+}
+
+.education .education-row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+
+}
+
+.education-row .education-column{
+    flex: 1 1 40rem;
+}
+
+.education-column .title{
+    font-size: 2.5rem;
+    margin: 0 0 1.5rem 2rem;
+}
+
+.education-column .education-box{
+    border-left: .2rem solid #c43edf;
+}
+
+.education-box .education-content{
+    position: relative;
+    padding-left: 2rem;
+}
+.education-box .education-content::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -1.1rem;
+    width: 2rem;
+    height: 2rem;
+    background: #c43edf;
+    border-radius: 50%;
+
+}
+
+
+.education-content .content{
+    position: relative;
+    padding: 1.5rem;
+    border: .2rem solid #c43edf;
+    border-radius: .6rem;
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+.education-content .content::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #c43edf;
+    z-index: -1;
+    transition: .5s;
+}
+
+.education-content .content:hover::before{
+    width: 100%;
+}
+
+
+.education-content .content .year{
+    font-size: 1.3rem;
+    color: #c43edf;
+    padding-bottom: .5rem;
+}
+
+.education-content .content .year i{
+    padding-right: .5rem;
+}
+
+.education-content .content h3{
+    font-size:1.6rem;
+}
+
+.education-content .content p{
+    font-size: 1.3rem;
+    padding-top: .5rem;
 }
