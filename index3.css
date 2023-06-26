@@ -455,3 +455,13 @@ span{
     display: flex;
     justify-content: space-between;
 }
+.skills-content .progress h3 span{
+    color: #ededed;
+}
+.skills-content .progress .bar{
+    height: 2.5rem;
+    border-radius: .6rem;
+    border: .2rem solid #c43edf;
+    padding: .5rem;
+    margin: 1rem 0;
+}
